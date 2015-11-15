@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: block;
+	margin-top: 4%;
+	min-height: 100%;
+   
+    background-image: url("../images/background.jpg");
+}
+
+body {
+    /* display: table-cell;*/
+    vertical-align: middle;
+	margin-left: 10%;
+    margin-right:10%;
+}
+
+
+#horizontal ul li { 
+	display: inline;
+	margin: 8px;
+	text-decoration: none; 
+	border: solid #E6D3D3;
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	text-align: center;
+	font-size: 16pt;
+	padding-right: 30px;
+}
+
+#horizontal li, .white {
+	background-color: rgba(255,255,255,0.6);
+	width: 100%;
+}
+
+.white {
+	padding: 3%;
+}
+
+a:link {
+	color: #959110;
+}
+
+a:active {
+	color: #BFB924;
+}
+
+a:visited {
+	color: #0B6839;
+}
+
+#copyright {
+	text-align: center;
+}
+/*
+body {
+
+Today I spent most of the day setting up this website. Some of the structure code is from last time I try to build this website.
+
+I set up the host in AWS using elasticbeanstalk because all the web hosting platform are way more expensive and SLOW.
+
+Some remaining problems:
+
+1. I am currently using an EC2 t1 instance but I am not sure if this needed to be changed.  
+
+2. Also another problem is that if I ultimately want to interact with people, I am not sure if I should have them create  a log in account. If thats the case, I cant simple store their password in a txt file, I will need to connect to database to store those info
+
+3. 
+	
+*/

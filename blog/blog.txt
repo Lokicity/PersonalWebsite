@@ -1,0 +1,13 @@
+Website Work 11/11/2015<p>Today I spent most of the day setting up this website. Some of the structure&nbsp;code is from last time I try to build this website.</p>
+<p>I set up the host in AWS using elasticbeanstalk because all the web hosting platform are way more expensive and SLOW.</p>
+<p>Some remaining problems:</p>
+<p>1. I am currently using an EC2 t1 instance but I am not sure if this needed to be changed. &nbsp;</p>
+<p>2. Also another problem is that if I ultimately want to interact with people, I am not sure if I should have them create &nbsp;a log in account. If thats the case, I cant simple store their password in a txt file, I will need to connect to database to store those info</p>
+<p>3. blog need at least an admin log in so that only me can post to blog</p>
+<p>4. need to add all my projects to github and edit this page</p>
+<p>5. need to add contact me so people can leave message</p>
+<p>6. need to fill in the front page</p>
+<p>7. need to&nbsp;reconstruct so that each blog is in its own file.&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="http://www.daimto.com/wp-content/uploads/2014/05/php-logo.png" alt="" /></p>
+<p>&nbsp;</p>
